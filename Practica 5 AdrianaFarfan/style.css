@@ -1,0 +1,145 @@
+.tipoletra1
+{
+    font-family: 'Arial';
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+    text-align: justify;
+}
+.tipoletra2
+{
+    font-family: Arial;
+    color: white;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.backgrounds1 
+{
+    height: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background: linear-gradient(45deg, rgb(1, 1, 143) 30%, rgb(102, 199, 255) 70%);
+    border-radius: 10px;
+}
+
+.backgrounds2
+{
+    height: 50px;
+    margin-top: 5px;
+
+    background-color: rgb(189, 188, 188);
+    border-radius: 10px;
+
+    font-family: Arial;
+    font-size: 30px;
+    text-align: center;
+}
+
+.backgrounds3
+{
+    background: linear-gradient(45deg, rgb(56, 212, 103) 30%, transparent 70%);
+    border-radius: 10px;
+}
+
+table
+{
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 60px;
+}
+
+thead
+{
+    background-color: rgb(6, 6, 88);
+    text-align: center;
+    color: white;
+}
+tfoot
+{
+    font-family: Arial;
+}
+
+.titulo
+{
+    height: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+
+    background-color: rgb(189, 188, 188);
+    border-radius: 10px;
+
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+}
+
+form
+{
+    margin-top: 50px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+form button
+{
+    background-color: rgb(0, 0, 148);
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: .8em;
+}
+.form div
+{
+    display: flex;
+}
+
+.form-label
+{
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    text-align: right;
+    border: rgb(14, 14, 105);
+}
+
+.form-input, .radio-options
+{
+    margin: 5px;
+    width: 250px;
+    background-color: #eee;
+    border: rgb(28, 28, 97);
+}
+
+.form-input, .form-input
+{
+    border: 1px solid rgb(2, 2, 173);
+}
+
+.radio-options
+{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+footer
+{
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+
+    background-color: rgb(189, 188, 188);
+
+    font-family: Arial;
+}
